@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #0F211A;
+}
+
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #666B3A;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h4 {
+    font-weight: 200px;
+    font-size: 25px;
+}
+
+a {
+    color: #0F211A;
+    text-decoration: none;
+}
+
+p {
+    color: #0F211A;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #666B3A;
+    background: #fff;
+    border: 2px solid #666B3A;
+    border-radius: 20px
+}
+
+#bold {
+    font-weight: 900;
+    color: #0F211A;
+}
+
+.navbar-brand {
+    color: #DCDFE4;
+}
+
+.adyg {
+    color: #666B3A;
+    font-weight: 700;
+}
+
+#butt {
+    font-weight: 700;
+    color: #DCDFE4;
+    border: 2px solid #666B3A;
+    border-radius: 20px;
+    background-color: #666B3A;
+}
+
+.button {
+    background: #666B3A;
+    color: #DCDFE4;
+    padding: 20px;
+    border-radius: 20px
+}
+
+.cards {
+    background: #DCDFE4;
+    border-radius: 20px;
+}
+
+.cards img {
+    width: 55px;
+    height: 55px;
+}
+
+#about img {
+    width: 70px;
+    height: 70px;
+}
+#contest img{
+    width: 250px;
+    height: 250px;
+}
+.footer{
+    background: #DCDFE4;
+}
